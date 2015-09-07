@@ -1,0 +1,13 @@
+This repository is simple test at :
+	- creating a maven project from a maven archetype
+	- deploying the project to a running tomcat
+	
+The project was generated using the command "mvn archetype:generate"
+The choosen archetype is org.apache.maven.archetypes:maven-archetype-webapp
+
+
+The folder 'config' contains the configurations files that were modified in order
+to deploy the webapp at runtime.
+
+To deploy the webapp use "mvn tomcat7:deploy"
+Then test the webapp execution with your browser : http://localhost:8080/myapppath
